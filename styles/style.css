@@ -5,15 +5,67 @@
 /* Common Styles Or, Utilities */
 
 body{
-    font-family: 'Inter', sans-serif;
-    /* font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Roboto', sans-serif; 
+    font-family: 'Inter', sans-serif;*/
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+}
 
+/* ---------------------------------
+    header styles
+----------------------------- */
 
+#header{
+    margin: 75px 120px 0;
+}
+.logo h1{
+    font-size: 24px;
+}
 
+/* ---------------------------------
+    nav styles
+----------------------------- */
 
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 34px;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+    transition: color 0.3s ease-in;
+}
+.menu li a:hover{
+    color: #000000fd;
+}
+.menu #search{
+    position: relative;
+    bottom: -5px;
+}
+.fas{
+    color: #000000;
+}
+.fa-search{
+    font-size: 24px;
+}
+.fa-cart-plus{
+    font-size: 36px;
+}
 
+/* ---------------------------------
+    ----- styles
+----------------------------- */
 
 
