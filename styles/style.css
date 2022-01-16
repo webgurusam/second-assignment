@@ -33,7 +33,7 @@ body{
     logo styles
 ----------------------------- */
 
-.logo h1{
+.logo h1, #footer h1{
     font-size: 24px;
 }
 
@@ -41,7 +41,7 @@ body{
     nav styles
 ----------------------------- */
 
-.menu, .clients-list, .star{
+.menu, .clients-list, .star, #footer .social-share{
     display: flex;
     align-items: center;
     list-style: none;
@@ -282,7 +282,7 @@ body{
     youtube-videos styles
 ----------------------------- */
 
-/* .youtube-videos{} */
+.youtube-videos{}
 .watch-video{
     vertical-align: middle;
 }
@@ -291,29 +291,52 @@ body{
     footer styles
 ----------------------------- */
 
-/* #footer{
-    display: none;
+#footer{
+    background-color: rgb(10, 8, 38);
+    color: rgb(255, 255, 255);
+    padding: 50px 0;
+    flex-direction: column;
 }
 #footer h1{}
-#footer p{} */
+#footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+    margin: 3px 0;
+}
 
 /* ---------------------------------
     social-share styles
 ----------------------------- */
 
-/* #footer .social-share{}
+#footer .social-share{
+    margin-top: 17px;
+    column-gap: 16px;
+}
 #footer .social-share li{}
-#footer .social-share li a{} */
+#footer .social-share li a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #23213C;
+    border-radius: 50%;
+    position: relative;
+}
+.filled-icon{
+    color: #ffffff;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
 
 /* --------------------------------------
     Media Queries
 --------------------------------- */
 
 /* Mobile Devices */
-/* @media only screen and (max-width: 576px) {} */
+@media only screen and (max-width: 576px) {}
 
 /* Tablet Devices */
-/* @media only screen and (min-width: 577px) and (max-width: 768px) {} */
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
 
 
 
