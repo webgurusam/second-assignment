@@ -13,8 +13,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
-    /*font-family: 'Roboto', sans-serif; 
-    font-family: 'Inter', sans-serif;*/
 }
 
 .container{
@@ -43,7 +41,7 @@ body{
     nav styles
 ----------------------------- */
 
-.menu, .clients-list{
+.menu, .clients-list, .star{
     display: flex;
     align-items: center;
     list-style: none;
@@ -138,7 +136,7 @@ body{
 ----------------------------- */
 
 #clients{
-    margin: 0 116px 100px;
+    margin: 0 116px 0;
     padding: 36px 61px 34px 62px;
     box-shadow: 0px 0px 2px #ddd;
 }
@@ -154,6 +152,118 @@ body{
 /* ---------------------------------
     popular-collection styles
 ----------------------------- */
+
+#popular-collection{
+    flex-direction: column;
+    margin: 100px 196px;
+}
+.popular-title{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+/* ---------------------------------
+    popular-packages styles
+----------------------------- */
+
+.popular-packages{
+    margin: 50px 0;
+}
+
+/* ---------------------------------
+    popular-single-package styles
+----------------------------- */
+
+.popular-single-package{
+    width: 300px;
+    padding: 17px 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px #00000026;
+    border-radius: 6px;
+}
+
+/* ---------------------------------
+    popular-thumbnail styles
+----------------------------- */
+
+.popular-single-package .popular-thumbnail img{
+    vertical-align: middle;
+}
+
+/* ---------------------------------
+    popular-info styles
+----------------------------- */
+
+.popular-info{
+    margin-top: 16px;
+}
+.popular-info h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+}
+.popular-info h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 150%;
+    margin-top: 6px;
+}
+.star{
+    column-gap: 2.93px;
+}
+.star .fas.filled{
+    color: #FB8200;
+    font-size: 11px;
+}
+.rating-point{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #5E6366;
+    line-height: 22px;
+}
+.popular-info p{
+    width: 196px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    color: #787885;
+    letter-spacing: 0.018em;
+}
+
+.see-more{
+    font-size: 16px;
+    font-weight: bold;
+    color: #e02c6dde;
+    text-decoration: none;
+    
+}
+.see-more .fa-arrow-right{
+    color: #e02c6dde;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
