@@ -282,7 +282,7 @@ body{
     youtube-videos styles
 ----------------------------- */
 
-.youtube-videos{}
+/* .youtube-videos{} */
 .watch-video{
     vertical-align: middle;
 }
@@ -291,29 +291,29 @@ body{
     footer styles
 ----------------------------- */
 
-#footer{
+/* #footer{
     display: none;
 }
 #footer h1{}
-#footer p{}
+#footer p{} */
 
 /* ---------------------------------
     social-share styles
 ----------------------------- */
 
-#footer .social-share{}
+/* #footer .social-share{}
 #footer .social-share li{}
-#footer .social-share li a{}
+#footer .social-share li a{} */
 
 /* --------------------------------------
     Media Queries
 --------------------------------- */
 
 /* Mobile Devices */
-@media only screen and (max-width: 576px) {}
+/* @media only screen and (max-width: 576px) {} */
 
 /* Tablet Devices */
-@media only screen and (min-width: 577px) and (max-width: 768px) {}
+/* @media only screen and (min-width: 577px) and (max-width: 768px) {} */
 
 
 
