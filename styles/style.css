@@ -43,10 +43,13 @@ body{
     nav styles
 ----------------------------- */
 
-.menu{
+.menu, .clients-list{
     display: flex;
     align-items: center;
     list-style: none;
+}
+
+.menu{
     column-gap: 34px;
     position: relative;
 }
@@ -96,6 +99,7 @@ body{
     font-size: 16px;
     font-weight: 600;
     margin: 16px 0;
+    line-height: 24px;
 }
 .link-button{
     font-weight: bold;
@@ -129,10 +133,22 @@ body{
     left: 5%;
 }
 
+/* ---------------------------------
+    clients styles
+----------------------------- */
 
+#clients{
+    margin: 0 116px 100px;
+    padding: 36px 61px 34px 62px;
+    box-shadow: 0px 0px 2px #ddd;
+}
 
+/* ---------------------------------
+    clients list styles
+----------------------------- */
 
-
-
+.clients-list{
+    column-gap: 60px;
+}
 
 
