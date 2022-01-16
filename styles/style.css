@@ -248,21 +248,72 @@ body{
 }
 
 /* ---------------------------------
-    ----*--- styles
+    featured-products styles
 ----------------------------- */
 
+#featured-products{
+    margin: 0 165px 100px;
+}
 
+/* ---------------------------------
+    featured-product styles
+----------------------------- */
 
+.featured-product{
+    width: 450px;
+}
+.featured-product h1{
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.featured-product p{
+    margin: 16px 0;
+    width: 97%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.featured-product .link-button{
+    border-radius: 0 20px 0 20px;
+}
 
+/* ---------------------------------
+    youtube-videos styles
+----------------------------- */
 
+.youtube-videos{}
+.watch-video{
+    vertical-align: middle;
+}
 
+/* ---------------------------------
+    footer styles
+----------------------------- */
 
+#footer{
+    display: none;
+}
+#footer h1{}
+#footer p{}
 
+/* ---------------------------------
+    social-share styles
+----------------------------- */
 
+#footer .social-share{}
+#footer .social-share li{}
+#footer .social-share li a{}
 
+/* --------------------------------------
+    Media Queries
+--------------------------------- */
 
+/* Mobile Devices */
+@media only screen and (max-width: 576px) {}
 
-
+/* Tablet Devices */
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
 
 
 
