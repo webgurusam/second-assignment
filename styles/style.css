@@ -155,7 +155,7 @@ body{
 
 #popular-collection{
     flex-direction: column;
-    margin: 100px 196px;
+    margin: 100px 146px;
 }
 .popular-title{
     font-weight: 600;
@@ -168,6 +168,9 @@ body{
 
 .popular-packages{
     margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
 }
 
 /* ---------------------------------
@@ -234,19 +237,19 @@ body{
     color: #787885;
     letter-spacing: 0.018em;
 }
-
 .see-more{
     font-size: 16px;
     font-weight: bold;
     color: #e02c6dde;
     text-decoration: none;
-    
 }
 .see-more .fa-arrow-right{
     color: #e02c6dde;
 }
 
-
+/* ---------------------------------
+    ----*--- styles
+----------------------------- */
 
 
 
