@@ -130,10 +130,14 @@ body{
     background: url(../images/backgrounds/circle-design.svg) no-repeat center;
     position: relative;
 }
+#start-your-journey:hover img{
+    transform: scale(110%);
+}
 .camera img{
     position: relative;
     top: 10%;
     left: 4%;
+    transition: transform 0.9s ease-in;
 }
 
 /* ---------------------------------
