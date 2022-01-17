@@ -352,20 +352,38 @@ body{
     #header{
         justify-content: center;
         column-gap: 0;
+        margin: 50px 0 0;
     }
-    nav .nav, #start-your-journey, .clients-list, .youtube-videos{
+    nav .nav, .youtube-videos{
         display: none;
     }
-    #start-your-journey{}
+    #start-your-journey{
+        flex-direction: column;
+        align-items: center;
+    }
+    .journey-article{
+        order: 2;
+        width: 75%;
+        text-align: center;
+        margin-top: 14px;
+    }
+    .camera{
+        order: 1;
+        background-size: 330px 330px;
+    }
     #clients {
         box-shadow: none;
         padding: 0;
+        margin: 70px 0;
     }
     .clients-list{
-
+        column-gap: 25px;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #popular-collection{
-        width: 98%;
+        
     }
     .popular-packages{
         grid-template-columns: repeat(1, 1fr);
@@ -383,7 +401,7 @@ body{
         margin-top: 17px;
     }
     #featured-products{
-        margin-top: 50px;
+        margin: 50px 0;
     }
     .featured-product{
         text-align: center;
